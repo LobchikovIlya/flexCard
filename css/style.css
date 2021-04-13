@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --width-card: 250px;
+    color: #333
+}
+
+ul {
+    list-style: none;
+}
+
+h2,
+h3,
+h4 {
+    padding: 10px 10px 0;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    min-height: 100vh;
+    background-color: rgb(228, 224, 220);
+}
+
+
+
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 270px;
+    overflow: hidden;
+    background-color: rgba(246, 248, 248, 0.527);
+    border-radius: 20px;
+    margin-right: 50px;
+    min-height: 400px;
+    margin-bottom: 30px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    width: calc(var(--width-card)/2);
+    height: calc(var(--width-card)/2);
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+
+}
+
+button {
+    width: 70%;
+    height: 10%;
+    margin: 10px 10px 0;
+    border-radius: 8px;
+    border: 1px solid blue;
+    color: rgb(84, 104, 53);
+    font-size: 1.1em;
+
+}
+
+button:hover {
+    background-color: rgb(168, 168, 192);
+    border: 1px solid #fff;
+}
