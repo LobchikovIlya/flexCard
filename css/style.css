@@ -24,9 +24,8 @@ h4 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-
     min-height: 100vh;
     background-color: rgb(228, 224, 220);
 }
@@ -46,7 +45,6 @@ h4 {
     overflow: hidden;
     background-color: rgba(246, 248, 248, 0.527);
     border-radius: 20px;
-    margin-right: 50px;
     min-height: 400px;
     margin-bottom: 30px;
 
@@ -57,8 +55,8 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    width: 100%;
+    min-height: 200px;
+    min-width: 100%;
     background-color: #fff;
 
 }
@@ -66,12 +64,17 @@ header {
 .user {
     display: flex;
     align-items: center;
+    
     width: calc(var(--width-card)/2);
     height: calc(var(--width-card)/2);
     border-radius: 50%;
-    /* border: 1px solid red; */
     overflow: hidden;
+    margin-top: 30px;
 
+}
+img{
+    width: calc(var(--width-card)/2);
+    height: calc(var(--width-card)/2);
 }
 
 button {
