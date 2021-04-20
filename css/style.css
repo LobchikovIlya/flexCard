@@ -76,13 +76,7 @@ img {
     height: calc(var(--width-card)/2);
     object-fit: cover;
 }
-.card>header>:nth-child(2) {
 
-
-
-    
-   
-}
 
 .boxrating {
     display: flex;
